@@ -19,6 +19,10 @@ Dokumentasi API tersedia dalam format **Swagger**.
 php artisan migrate --seed
 ```
 
+4. Jalankan server:
+```bash
+php artisan serve
+```
 
 
 
