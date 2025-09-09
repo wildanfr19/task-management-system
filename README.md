@@ -24,5 +24,12 @@ php artisan migrate --seed
 php artisan serve
 ```
 
+🔑 Default Akun Hasil Seeding
+
+| Role    | Email                                               | Password    |
+| ------- | --------------------------------------------------- | ----------- |
+| Manager | [manager1@example.com](mailto:manager1@example.com) | password123 |
+| Staff   | [staff1@example.com](mailto:staff1@example.com)     | password123 |
+
 
 
