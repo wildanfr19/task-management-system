@@ -24,6 +24,31 @@ php artisan migrate --seed
 php artisan serve
 ```
 
+Jika ketika download projek zipnya dan file .env hilang
+maka tinggal generate ulang dengan cara
+Salin file .env.example menjadi .env
+```bash
+cp .env.example .env
+```
+
+Edit konfigurasi database di file .env
+```bash
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=task_api
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+Lalu generate app key:
+```bash
+php artisan key:generate
+```
+
+kemudian create database nya dengan nama task_api
+
+
 🔑 Default Akun Hasil Seeding
 
 | Role    | Email                                               | Password    |
