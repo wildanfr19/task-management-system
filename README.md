@@ -76,8 +76,8 @@ Jika semua benar, hasilnya akan PASS ✅
 
 📌 Catatan
 
--Pastikan PHP, Composer, dan database MySQL sudah terinstall.
--Sesuaikan .env untuk koneksi database.
--Dokumentasi Swagger akan otomatis ter-generate sesuai perubahan endpoint
+- Pastikan PHP, Composer, dan database MySQL sudah terinstall.
+- Sesuaikan .env untuk koneksi database.
+- Dokumentasi Swagger akan otomatis ter-generate sesuai perubahan endpoint
 
 
