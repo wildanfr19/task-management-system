@@ -17,9 +17,7 @@ Dokumentasi API tersedia dalam format **Swagger**.
 
 ```bash
 php artisan migrate --seed
-4.Jalankan server:
-```bash
-php artisan serve
+```
 
 
 
